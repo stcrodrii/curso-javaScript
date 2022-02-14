@@ -1,6 +1,6 @@
 'use strict'
 
-/* platillas de texto 
+/* platillas de texto
 
 dentro de una variable se guarda la plantilla que creemos y depsues se imprime la variable 
 
