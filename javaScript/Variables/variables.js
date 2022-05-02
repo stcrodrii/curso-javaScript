@@ -3,6 +3,8 @@
 var nombre = "rodrigo ";
 var apellido = " cabral";
 var edad = "26 "; 
+var cosa ;  
+cosa = "perro loco";
 var naranjas = 4 ; 
 var pera = 2 ; 
 var totalDefrutad = naranjas+pera ; 
@@ -18,3 +20,4 @@ var nombreCompleto = nombre +''+ apellido ; // esto sirve para concatenar varaib
 console.log(nombreCompleto);
 //alert(nombreCompleto+'  '+edad+ '  '+ciudad);// alerta para mostrar en la pag
 alert(ciudad); // muestra con una ventanita esto !!!
+alert (cosa);
