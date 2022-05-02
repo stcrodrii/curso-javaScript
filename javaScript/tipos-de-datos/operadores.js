@@ -20,9 +20,9 @@ var booleano2 = false ; // 0
 var numeroFalso = "34" ; 
 console.log(Number(numeroFalso)+2);
 
-// trasformar un numero a un string para solo concatenar 
+// trasformar un numero a un string para solo concatenar y agregarle un texto concatenado
 var edad = 45 ; 
-console.log(String (edad)+4);
+console.log(String (edad)+4 + ' hola soy un texto concatenado'); // se una '' para concatenar texto 
 
 
 
