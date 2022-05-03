@@ -1,8 +1,8 @@
 'use strict'
 // SWITCH
 
-var edad = 4; 
-switch (edad){
+var dia = 3; 
+switch (dia){
     case 1 : 
         console.log("hoy es lunes");
     break;
@@ -19,7 +19,7 @@ switch (edad){
         console.log("hoy es jueves");
     break;
     
-    case 4 : 
+    case 5 : 
         console.log("hoy es viernes");
     break; 
 
@@ -28,24 +28,25 @@ switch (edad){
     break;
 }
 
-var edad2 = 15 ; 
-var imprimir = "" ;
+var edad = 18 ; 
+var imprime = ""; 
 
 switch(edad){
-    case 15:
-        imprimir = "eres adolecente";
-        break;
-    
-    case 25 :
-        imprimir = "ya eres mayor de edad ";
-        break;
 
+    case 18 :
+     imprime = "tienes 18 años recien cumpliedos "; 
+     break ;
+    case 25 :
+     imprime = "tienes 25 años recien cumpliedos "; 
+     break ;
     case 40 :
-        imprimir = "ya eres adulto case viejo ";
-        break; 
-    
-     default : 
-        imprimir = "introduciste mal la edad ";
-        break; 
+     imprime = "tienes 40 años recien cumpliedos "; 
+     break ;
+    case 50 :
+     imprime = "tienes 18 años recien cumpliedos "; 
+     break ;
 
 }
+
+console.log(imprime);
+
