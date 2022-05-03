@@ -2,6 +2,7 @@
 
 var edad = 4;
 var edad2 = 11 ; 
+var edad3 = 130 ; 
 
 /*
 if (edad > edad2){
@@ -13,17 +14,17 @@ else {
 }
 */
 
-if(edad >= 18){
+if(edad3 >= 18){
 
     console.log("eres mayor de edad ");
 
-     if(edad <= 25){
+     if(edad3 <= 25){
         console.log ("eres joven ");
         }
-     else if (edad <= 50){
+     else if (edad3 <= 50){
         console.log("eres aduto");
      }
-     else if (edad >= 51 & edad <= 110){
+     else if (edad3 >= 51 & edad3 <= 110){
         console.log("eres anciano");
 
      }
