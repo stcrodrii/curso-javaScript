@@ -10,7 +10,7 @@ console.log(texto.indexOf("rodrigo"));  // me dice que se encntra en la posicion
 var texto2 = "hola rodrigo . hola catalina";
 console.log(texto2.lastIndexOf("hola")); // esto me va arrojar como resultado 16 xq en la posicion 16 empieza la ultima ves escrita la palabra "hola" 
 
-
+// es un arrays 
 // .match("")  para la ultima vez visto 
 //.match(/nombre/gi) ;  esto nos mustra las ubicaciones de toda slas veces visto 
 

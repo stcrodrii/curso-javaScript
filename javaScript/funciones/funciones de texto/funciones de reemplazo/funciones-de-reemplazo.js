@@ -13,7 +13,7 @@ document.write(texto.replace("rodrigo","catalina")); // reemplaze la palabra rod
 
 
 // metodo split {sirve para meter el string en un arrays, }
-// .split();  {arrays de un lugar}  /   .slice(" ");  {arrays de todas las palabras}
+// .split();  {arrays de un lugar}  /   .split(" ");  {arrays de todas las palabras}
 
 console.log(texto.split());  // arrays de un lugar , en la posicion 0 coloca todo el string
  var texto2 = "esto es un string trasformado es arrays";
