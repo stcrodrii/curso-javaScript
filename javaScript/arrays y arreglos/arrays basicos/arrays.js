@@ -4,8 +4,9 @@
 
 
 // declaracion de la FORMA 1 
-var frutas = ["pera","coco","anana", "naranja"];
+var frutas = ["pera","coco","anana", "naranja" , 45, ];
 console.log(frutas); 
+
 
 
 
@@ -19,5 +20,14 @@ comidad [4] = "arroz con pollo";
 comidad [5] = 45;
 comidad [6] = true;
 
+
 console.log(comidad); // forma de ver todo el arrays
 console.log(comidad[5]); // forma de ver el arrays por posicion
+
+
+
+// la otra forma es declarar en forma de objeto el arrays 
+var animales = new Array ("perro","gato","puma","leon");
+console.log(animales);
+
+
