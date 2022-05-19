@@ -10,6 +10,9 @@ var marcas = ["axe","nike","addidas","petronas", "ferrari", "audi"];
 marcas [3]= undefined;  // esto mas que elinar deja indefinido al elemento
 console.log(marcas);
 
+
+// eliminar la marca 
+
 // 2da forma de eliminar
 //eliminar la marca addidas
 // crear una variable donde le aplico el metodo   .indexOf ("elemento - a eliminar"); 
