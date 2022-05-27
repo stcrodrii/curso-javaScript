@@ -1,5 +1,5 @@
 'use strict'
-
+// BOTTOM COLORES
 // LAS 3 CLASES DE COLORES [RED , YELLOW , BLUE]
 function mifuncion(){
     var claseRed = document.querySelectorAll("div[class = 'red']");
@@ -34,6 +34,8 @@ function mifuncion4(){
     }
 }
 
+
+// BOTTOM ROJO
 // TODO EN ROJO
 function mifuncionrojo(){
     var rojos = document.querySelectorAll('div ,  p');
@@ -41,6 +43,7 @@ function mifuncionrojo(){
         red1(rojos[m]);
     }
 }
+// BOTTOM AZUL
 // TODO EN AZUL
 function mifuncionblue(){
     var blue = document.querySelectorAll('div , p');
@@ -51,11 +54,21 @@ function mifuncionblue(){
     }
 }
 
+
+
+
+
+
+
+
+
+// Styles de boottom
 var boton = document.querySelectorAll('button');
 for(var t = 0; t<boton.length ; t++){
-   // boton[t].style.background = "pink";
+    boton[t].style.padding = "15px" ;
     boton[t].style.backgroundColor = "yellow";
-    boton[t].style.transition = "5.23s"; 
+    boton[t].style.transition = "8.23s"; 
+    boton[t].style.marginLeft ="270px";
 }
 
 
@@ -65,5 +78,6 @@ function red1 (red){
     red.style.margin = "1%";
     red.style.padding = "1%" ;
     red.style.textAlign = "center";
+    red.style.border = "4px solid violet ";
     
 }
