@@ -68,7 +68,7 @@ for(var t = 0; t<boton.length ; t++){
     boton[t].style.padding = "15px" ;
     boton[t].style.backgroundColor = "yellow";
     boton[t].style.transition = "8.23s"; 
-    boton[t].style.marginLeft ="270px";
+    boton[t].style.marginLeft ="200px";
 }
 
 
