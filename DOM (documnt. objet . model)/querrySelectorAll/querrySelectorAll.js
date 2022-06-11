@@ -57,11 +57,6 @@ function mifuncionblue(){
 
 
 
-
-
-
-
-
 // Styles de boottom
 var boton = document.querySelectorAll('button');
 for(var t = 0; t<boton.length ; t++){
