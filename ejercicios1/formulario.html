@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="ejercicio1.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <p> 1-formulario con los campos : nombre apellido y edad 
+        2-botom de enviar el formulario : eventos sumit
+        3-mostrar los datos por pantalla 
+        4-tener un boton que al darle click nos muestra los datos actuales del formulario
+    </p>
+<h1>ejercicio 1 de dom , eventos y funciones </h1>
+
+<p>
+    <h2>1- creacion de los formularios de nombre , apellido y edad</h2>
+
+   <div class="box">
+
+         <form action="#" method="POST"  id="formulario"  onsubmit=" return false ;"> <!-- onsubmit = "return false " es para que cuando capturo los datos del formulario no me redireccione  -->
+
+             <label for="nombre">Nombre</label><br/>
+             <input type="text" name="nombres" id="nombre"/><br/>
+
+             <label for="apellido">Apellido</label><br/>
+             <input type="text" name="apelldidos"  id="apellido"/><br/>
+
+             <label for="edad">Edad</label><br/>
+             <input type="number" name="edades" id="edad"/> <br/>
+             <p>
+                <input type="submit" value="enviarr" id="submit" /><br/>
+             </p>
+        
+         </form>
+
+   </div>
+
+
+
+   <div class="datos">
+       
+       <h4> datos ingredados</h4>
+
+       <p id="p_nombre">
+            nombre = <span></span>
+       </p>
+
+        <p id="p_apellido">
+          apellido = <span></span>
+        </p>
+
+       <p id="p_edad">
+          edad = <span></span>
+        </p>
+
+   </div>
+        
+
+
+   
+    
+
+</p>
+
+</body>
+</html>
