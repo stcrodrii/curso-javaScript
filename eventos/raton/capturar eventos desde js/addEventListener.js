@@ -19,6 +19,7 @@ function cambiarColor(){
 // evebto del click
 botom.addEventListener('click', function(){
     cambiarColor();
+    this.style.border = "10px solid black";        // THIS hace referencia al objeto que estoy usando 
 });
 
 
